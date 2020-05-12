@@ -1,6 +1,3 @@
-'compute the Gaussian distribution given mu,var,p and some point in the space'
-
-
 def gaussian(x: np.ndarray, mean: np.ndarray, var: float) -> float:
     """Computes the probablity of vector x under a normal distribution
 
